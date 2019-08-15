@@ -6,7 +6,7 @@
   
 body {
   margin: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Comic Sans MS", cursive, sans-serif;
   color: #D3D3D3;
   background: #222;
 }
@@ -20,6 +20,7 @@ nav li{
 }
 
 nav a {
+	
 	color: #D3D3D3;
 	text-decoration: none;
 	text-transform: uppercase;
@@ -27,62 +28,68 @@ nav a {
 
 nav a:hover
 {
-	color: yellow;
+	color: #f46500;
 }
 
 .header {
-  background-color: #00AB66;
+	
+  background-color: #1E5631;
   width: 100%;
   min-height: 75px;
   padding: 30px;
+  margin-bottom: 50px;
   
 }
 
 .name{
+	
 	float: left;
 	margin-top: -10px;
 	color: #D3D3D3;
 	border: solid #D3D3D3 2.5px;
 	padding: 6px;
-    font-family: semi-condensed;
+    font-family: "Comic Sans MS", cursive, sans-serif;
 	
 }
 
 .options {
+	
   float: right;
   list-style-type: none;
   margin: 0 auto;
   padding: 0;
-  font-family: semi-condensed;
+  font-family: "Comic Sans MS", cursive, sans-serif;
   font-weight: 1000;
+  
 }
 
 .basic_info{
-	float: left;
+	
+	vertical-align: middle;
 	background-color: #222;
 	border: solid #D3D3D3 3px;
 	width: 700px;
 	height: 700px;
-	margin-top: 20px;
-	margin-left: -160px;
-	margin-bottom: 20px;
-    padding: 40px;	
+	margin: 0 auto;
+	padding: 40px;
+	margin-bottom: 50px;
+	
 }
 
 .secondary_info{
-	float: right;
+	
 	background-color: #222;
 	border: solid #D3D3D3 3px;
 	width: 700px;
 	height: 700px;
-	margin-top: 20px;
-	margin-right: 20px;
-    margin-bottom: 20px;
-	padding: 40px;	
+	margin: 0 auto;
+	padding: 40px;
+	margin-bottom: 50px;
 
 }
 
 .image{
+	
   display: block;
   margin: 0 auto;
   width: 300px;
@@ -92,16 +99,16 @@ nav a:hover
 }
 
 .footer{
-  background-color: #00AB66;
+	
+  background-color: #1E5631;
   color: #D3D3D3;
   clear: both;
   position: relative;
   min-height: 75px;
-  margin-top: -200px;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: semi-condensed;
+  font-family: "Comic Sans MS", cursive, sans-serif;
   font-weight: 600;
   font-size: 20px;
 
@@ -119,12 +126,12 @@ nav a:hover
 
 .basic_info a:hover
 {
-	color: yellow;
+	color: #f46500;
 }
 
 
 .secondary_info .main_list li {
-	color:yellow;
+	color: #f46500;
 }
 
 .secondary_info .second_list li {
@@ -144,6 +151,7 @@ nav a:hover
   width: 150px;
   height: 150px;
   border-radius: 50%;
+  margin-top: 40px;
   margin-bottom: 125px;
 }
 
@@ -152,7 +160,7 @@ nav a:hover
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  margin-top: 125px;
+  margin-top: 165px;
   margin-bottom: 125px;
 }
 
